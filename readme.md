@@ -11,10 +11,10 @@ ruby-fiddle-fuse is an implementation of FUSE (Filesystem in Userspace) binding 
 
 ## Example
 
-    > $ cd ruby-fiddle-fuse
-    > $ mkdir mnt
-    > $ ruby -I lib example/hello2.rb mnt &
-    > [1] 11111
-    > $ cat mnt/hello
-    > Hello, world.
-    > $fusermount -u mnt
+    $ cd ruby-fiddle-fuse
+    $ mkdir mnt
+    $ ruby -I lib example/hello2.rb mnt &
+    [1] 11111
+    $ cat mnt/hello
+    Hello, world.
+    $ fusermount -u mnt
